@@ -1,4 +1,3 @@
-
 .cards {
   padding: 30px;
   display: grid;
@@ -6,13 +5,6 @@
   gap: 40px;
 }
 
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .pageMain {
-    background-color: lightgray;
-  
-  }
+.pageMain {
+  background-color: lightgray;
+}

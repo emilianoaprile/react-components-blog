@@ -1,9 +1,11 @@
+import footerStyle from './Footer.module.css'
+
 function Footer() {
   return (
     <>
-      <footer className="pageFooter">
+      <footer className={footerStyle.pageFooter}>
         <div className="container">
-          <p className="footerText">
+          <p className={footerStyle.footerText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
             pariatur facilis soluta cumque cum ad quod sint saepe ullam. Fugit
             consequatur aut recusandae nulla, quibusdam distinctio quaerat

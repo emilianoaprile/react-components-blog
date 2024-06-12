@@ -7,7 +7,7 @@ function Main() {
     return (
       <>
         <main className={mainStyle.pageMain}>
-          <div className={mainStyle.container}>
+          <div className="container">
             <div className={mainStyle.cards}>
               <Card/>
               <Card/>
