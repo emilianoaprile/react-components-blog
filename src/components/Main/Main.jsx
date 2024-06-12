@@ -10,11 +10,6 @@ function Main() {
           <div className="container">
             <div className={mainStyle.cards}>
               <Card/>
-              <Card/>
-              <Card/>
-              <Card/>
-              <Card/>
-              <Card/>
             </div>
           </div>
         </main>
