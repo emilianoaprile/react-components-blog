@@ -1,16 +1,10 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* GENERAL STYLE */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -20,6 +14,11 @@ a {
 }
 a:hover {
   color: #535bf2;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 h1 {
@@ -41,3 +40,40 @@ button {
 button:hover {
   border-color: #646cff;
 }
+
+
+/* HEADER */
+
+.pageHeader {
+  padding: 20px;
+  text-align: center;
+  background-color: #646cff;
+}
+
+/* MAIN */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* CARD */
+
+.cards {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 40px;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* FOOTER */
+
+

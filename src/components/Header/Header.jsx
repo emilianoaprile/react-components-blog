@@ -2,8 +2,8 @@ function Header() {
 
     return (
       <>
-        <header>
-            Header
+        <header className="pageHeader">
+            <h1 className="headerTitle">Il mio blog</h1>
         </header>
       </>
     )
