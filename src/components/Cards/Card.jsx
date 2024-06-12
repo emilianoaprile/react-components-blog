@@ -3,7 +3,7 @@ function Card() {
     <>
       <div className="card">
         <div className="cardImage">
-          <img src="https://picsum.photos/200/300" alt="" />
+          <img src="https://picsum.photos/200/200" alt="" />
         </div>
         <div className="cardContent">
             <h2 className="cardTitle">Titolo</h2>
