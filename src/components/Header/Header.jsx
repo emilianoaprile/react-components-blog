@@ -1,9 +1,12 @@
+import headerStyle from './Header.module.css';
+
+
 function Header() {
 
     return (
       <>
-        <header className="pageHeader">
-            <h1 className="headerTitle">Il mio blog</h1>
+        <header className={headerStyle.pageHeader}>
+            <h1 className={headerStyle.headerTitle}>Il mio blog</h1>
         </header>
       </>
     )
