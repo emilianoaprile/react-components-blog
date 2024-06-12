@@ -8,7 +8,7 @@ function Main() {
       <>
         <main className={mainStyle.pageMain}>
           <div className={mainStyle.container}>
-            <div className="cards">
+            <div className={mainStyle.cards}>
               <Card/>
               <Card/>
               <Card/>

@@ -67,7 +67,7 @@ main {
 
 /* CARD */
 
-.cards {
+/* .cards {
   padding: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -94,7 +94,7 @@ main {
 
 .cardBtn {
   color: #1a1a1a;
-}
+} */
 
 /* FOOTER */
 
